@@ -12,14 +12,14 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		258B9D97B938D062ACA2A574 /* libPods-BizWallet-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB41A927E3FE56AE04D23808 /* libPods-BizWallet-tvOSTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* BizWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BizWalletTests.m */; };
-		39A3E78391DF95D3F48786DD /* libPods-BizWalletTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DAC6E31C251CB8E71C05A6B /* libPods-BizWalletTests.a */; };
-		402DF643E6EB4A0B478AAD01 /* libPods-BizWallet-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8330B06991881E406B4BCF3 /* libPods-BizWallet-tvOS.a */; };
-		D9F9E9E41063958A7A31FAB9 /* libPods-BizWallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0886BBCC811D35DA0C8312C /* libPods-BizWallet.a */; };
+		2EF382661440F662167961BC /* libPods-BizWallet-BizWalletTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C1FD680094040E09A280BB /* libPods-BizWallet-BizWalletTests.a */; };
+		67D81E9C440EA1315E15E080 /* libPods-BizWallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 396D91C2FB60B0C5FA736420 /* libPods-BizWallet.a */; };
+		8FC58CE959973A9F9AB9F26A /* libPods-BizWallet-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D9B8BC82774ECD48E850ED /* libPods-BizWallet-tvOSTests.a */; };
+		E59E5C08474B86A089891A0E /* libPods-BizWallet-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 598BCCF924EC87E559A950EE /* libPods-BizWallet-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,22 +51,22 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BizWallet/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BizWallet/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BizWallet/main.m; sourceTree = "<group>"; };
-		1700B52470B9AC4F2238CBC6 /* Pods-BizWalletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BizWalletTests.debug.xcconfig"; path = "Target Support Files/Pods-BizWalletTests/Pods-BizWalletTests.debug.xcconfig"; sourceTree = "<group>"; };
-		1BDC175D35CD5EE2867378B9 /* Pods-BizWallet-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BizWallet-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-BizWallet-tvOS/Pods-BizWallet-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		14C1FD680094040E09A280BB /* libPods-BizWallet-BizWalletTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BizWallet-BizWalletTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* BizWallet-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BizWallet-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* BizWallet-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BizWallet-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		58794841FB55D67CB4613DEA /* Pods-BizWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BizWallet.debug.xcconfig"; path = "Target Support Files/Pods-BizWallet/Pods-BizWallet.debug.xcconfig"; sourceTree = "<group>"; };
-		5DE44815A12CD08EDA89BF73 /* Pods-BizWallet-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BizWallet-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-BizWallet-tvOSTests/Pods-BizWallet-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5E28CF5D136588AF310D83AE /* Pods-BizWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BizWallet.release.xcconfig"; path = "Target Support Files/Pods-BizWallet/Pods-BizWallet.release.xcconfig"; sourceTree = "<group>"; };
-		7DAC6E31C251CB8E71C05A6B /* libPods-BizWalletTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BizWalletTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		941E84E59176F6B8446A8CC9 /* Pods-BizWallet-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BizWallet-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-BizWallet-tvOSTests/Pods-BizWallet-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		9FD97A955E66484F84F640F7 /* Pods-BizWalletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BizWalletTests.release.xcconfig"; path = "Target Support Files/Pods-BizWalletTests/Pods-BizWalletTests.release.xcconfig"; sourceTree = "<group>"; };
-		BF22C4E9D0F4DCD8E23C7007 /* Pods-BizWallet-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BizWallet-tvOS.release.xcconfig"; path = "Target Support Files/Pods-BizWallet-tvOS/Pods-BizWallet-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		C8330B06991881E406B4BCF3 /* libPods-BizWallet-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BizWallet-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB41A927E3FE56AE04D23808 /* libPods-BizWallet-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BizWallet-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		396D91C2FB60B0C5FA736420 /* libPods-BizWallet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BizWallet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		598BCCF924EC87E559A950EE /* libPods-BizWallet-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BizWallet-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74D9B8BC82774ECD48E850ED /* libPods-BizWallet-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BizWallet-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E8D9999FC664E3B8EC2667A /* Pods-BizWallet-BizWalletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BizWallet-BizWalletTests.release.xcconfig"; path = "Target Support Files/Pods-BizWallet-BizWalletTests/Pods-BizWallet-BizWalletTests.release.xcconfig"; sourceTree = "<group>"; };
+		A6B62E927BAB47237D86DDC8 /* Pods-BizWallet-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BizWallet-tvOS.release.xcconfig"; path = "Target Support Files/Pods-BizWallet-tvOS/Pods-BizWallet-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		C8BD7F514C4DD717AAC18AEB /* Pods-BizWallet-BizWalletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BizWallet-BizWalletTests.debug.xcconfig"; path = "Target Support Files/Pods-BizWallet-BizWalletTests/Pods-BizWallet-BizWalletTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D16656B98DE66154E4D5D507 /* Pods-BizWallet-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BizWallet-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-BizWallet-tvOSTests/Pods-BizWallet-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3B6C20272D505096DBD9D72 /* Pods-BizWallet-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BizWallet-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-BizWallet-tvOS/Pods-BizWallet-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D8B16F3E56A5119F2BFD31D0 /* Pods-BizWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BizWallet.release.xcconfig"; path = "Target Support Files/Pods-BizWallet/Pods-BizWallet.release.xcconfig"; sourceTree = "<group>"; };
+		E0C496D90D48167171184FAE /* Pods-BizWallet-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BizWallet-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-BizWallet-tvOSTests/Pods-BizWallet-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F0886BBCC811D35DA0C8312C /* libPods-BizWallet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BizWallet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F554853C4BEBC5AE136C971D /* Pods-BizWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BizWallet.debug.xcconfig"; path = "Target Support Files/Pods-BizWallet/Pods-BizWallet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39A3E78391DF95D3F48786DD /* libPods-BizWalletTests.a in Frameworks */,
+				2EF382661440F662167961BC /* libPods-BizWallet-BizWalletTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9F9E9E41063958A7A31FAB9 /* libPods-BizWallet.a in Frameworks */,
+				67D81E9C440EA1315E15E080 /* libPods-BizWallet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				402DF643E6EB4A0B478AAD01 /* libPods-BizWallet-tvOS.a in Frameworks */,
+				E59E5C08474B86A089891A0E /* libPods-BizWallet-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				258B9D97B938D062ACA2A574 /* libPods-BizWallet-tvOSTests.a in Frameworks */,
+				8FC58CE959973A9F9AB9F26A /* libPods-BizWallet-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,33 +136,33 @@
 			name = BizWallet;
 			sourceTree = "<group>";
 		};
+		1993E239EA0B9609EFD79F1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F554853C4BEBC5AE136C971D /* Pods-BizWallet.debug.xcconfig */,
+				D8B16F3E56A5119F2BFD31D0 /* Pods-BizWallet.release.xcconfig */,
+				C8BD7F514C4DD717AAC18AEB /* Pods-BizWallet-BizWalletTests.debug.xcconfig */,
+				9E8D9999FC664E3B8EC2667A /* Pods-BizWallet-BizWalletTests.release.xcconfig */,
+				D3B6C20272D505096DBD9D72 /* Pods-BizWallet-tvOS.debug.xcconfig */,
+				A6B62E927BAB47237D86DDC8 /* Pods-BizWallet-tvOS.release.xcconfig */,
+				D16656B98DE66154E4D5D507 /* Pods-BizWallet-tvOSTests.debug.xcconfig */,
+				E0C496D90D48167171184FAE /* Pods-BizWallet-tvOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				F0886BBCC811D35DA0C8312C /* libPods-BizWallet.a */,
-				C8330B06991881E406B4BCF3 /* libPods-BizWallet-tvOS.a */,
-				DB41A927E3FE56AE04D23808 /* libPods-BizWallet-tvOSTests.a */,
-				7DAC6E31C251CB8E71C05A6B /* libPods-BizWalletTests.a */,
+				396D91C2FB60B0C5FA736420 /* libPods-BizWallet.a */,
+				14C1FD680094040E09A280BB /* libPods-BizWallet-BizWalletTests.a */,
+				598BCCF924EC87E559A950EE /* libPods-BizWallet-tvOS.a */,
+				74D9B8BC82774ECD48E850ED /* libPods-BizWallet-tvOSTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5ACF62B65C91110748F31D17 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				58794841FB55D67CB4613DEA /* Pods-BizWallet.debug.xcconfig */,
-				5E28CF5D136588AF310D83AE /* Pods-BizWallet.release.xcconfig */,
-				1BDC175D35CD5EE2867378B9 /* Pods-BizWallet-tvOS.debug.xcconfig */,
-				BF22C4E9D0F4DCD8E23C7007 /* Pods-BizWallet-tvOS.release.xcconfig */,
-				5DE44815A12CD08EDA89BF73 /* Pods-BizWallet-tvOSTests.debug.xcconfig */,
-				941E84E59176F6B8446A8CC9 /* Pods-BizWallet-tvOSTests.release.xcconfig */,
-				1700B52470B9AC4F2238CBC6 /* Pods-BizWalletTests.debug.xcconfig */,
-				9FD97A955E66484F84F640F7 /* Pods-BizWalletTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -180,7 +180,7 @@
 				00E356EF1AD99517003FC87E /* BizWalletTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				5ACF62B65C91110748F31D17 /* Pods */,
+				1993E239EA0B9609EFD79F1E /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -205,7 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BizWalletTests" */;
 			buildPhases = (
-				F1CDC323291BD6E345E35D01 /* [CP] Check Pods Manifest.lock */,
+				FBB7BBEF5EE2E00AB99AAE6B /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -224,7 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BizWallet" */;
 			buildPhases = (
-				6203ACBA3537C0E6A6264586 /* [CP] Check Pods Manifest.lock */,
+				8B63CC38EDD1454B2005C7CB /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -244,7 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "BizWallet-tvOS" */;
 			buildPhases = (
-				DEB33A78FC7FA71FA15486A6 /* [CP] Check Pods Manifest.lock */,
+				14E7CD40468EDA5C7A62E14F /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -264,7 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "BizWallet-tvOSTests" */;
 			buildPhases = (
-				380D8F28F0F1D562857DD981 /* [CP] Check Pods Manifest.lock */,
+				4A3933E8C118867B0275805F /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -285,12 +285,14 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = Facebook;
+				LastUpgradeCheck = 1130;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -305,7 +307,7 @@
 			};
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "BizWallet" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -373,65 +375,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		380D8F28F0F1D562857DD981 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BizWallet-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6203ACBA3537C0E6A6264586 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BizWallet-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DEB33A78FC7FA71FA15486A6 /* [CP] Check Pods Manifest.lock */ = {
+		14E7CD40468EDA5C7A62E14F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -453,7 +397,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F1CDC323291BD6E345E35D01 /* [CP] Check Pods Manifest.lock */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		4A3933E8C118867B0275805F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -468,7 +426,51 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BizWalletTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BizWallet-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B63CC38EDD1454B2005C7CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BizWallet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBB7BBEF5EE2E00AB99AAE6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BizWallet-BizWalletTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -580,7 +582,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1700B52470B9AC4F2238CBC6 /* Pods-BizWalletTests.debug.xcconfig */;
+			baseConfigurationReference = C8BD7F514C4DD717AAC18AEB /* Pods-BizWallet-BizWalletTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -603,7 +605,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FD97A955E66484F84F640F7 /* Pods-BizWalletTests.release.xcconfig */;
+			baseConfigurationReference = 9E8D9999FC664E3B8EC2667A /* Pods-BizWallet-BizWalletTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -623,11 +625,16 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58794841FB55D67CB4613DEA /* Pods-BizWallet.debug.xcconfig */;
+			baseConfigurationReference = F554853C4BEBC5AE136C971D /* Pods-BizWallet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEAD_CODE_STRIPPING = NO;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FB_SONARKIT_ENABLED=1",
+				);
 				INFOPLIST_FILE = BizWallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -637,15 +644,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = BizWallet;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E28CF5D136588AF310D83AE /* Pods-BizWallet.release.xcconfig */;
+			baseConfigurationReference = D8B16F3E56A5119F2BFD31D0 /* Pods-BizWallet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = BizWallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -656,13 +666,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = BizWallet;
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BDC175D35CD5EE2867378B9 /* Pods-BizWallet-tvOS.debug.xcconfig */;
+			baseConfigurationReference = D3B6C20272D505096DBD9D72 /* Pods-BizWallet-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -680,7 +691,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.BizWallet-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.BizWallet-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -690,7 +701,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF22C4E9D0F4DCD8E23C7007 /* Pods-BizWallet-tvOS.release.xcconfig */;
+			baseConfigurationReference = A6B62E927BAB47237D86DDC8 /* Pods-BizWallet-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -708,7 +719,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.BizWallet-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.BizWallet-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -718,7 +729,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DE44815A12CD08EDA89BF73 /* Pods-BizWallet-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = D16656B98DE66154E4D5D507 /* Pods-BizWallet-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -735,7 +746,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.BizWallet-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.BizWallet-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BizWallet-tvOS.app/BizWallet-tvOS";
@@ -745,7 +756,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 941E84E59176F6B8446A8CC9 /* Pods-BizWallet-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = E0C496D90D48167171184FAE /* Pods-BizWallet-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -762,7 +773,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.BizWallet-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.BizWallet-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BizWallet-tvOS.app/BizWallet-tvOS";
@@ -774,6 +785,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -817,6 +829,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -827,6 +845,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -863,6 +882,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
