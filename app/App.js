@@ -107,11 +107,17 @@ export default class App extends React.Component {
         email = String(item.text);
         console.log("Email: ", email);
       } 
-      if(/\d\d\d/.test(item.text))
+      if(/\d\d\d\d/.test(item.text))
       {
         phone_number = String(item.text).replace(/\D/g, '');
         console.log("Phone Number: ", phone_number);
       } 
+      if(String(item.text).split(/\W+/).length == 2)
+      {
+        name = String(item.text);
+        console.log("Name: ", name);
+      }
+
       
       
     });
