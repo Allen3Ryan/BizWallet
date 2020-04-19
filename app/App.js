@@ -18,6 +18,10 @@ const PICTURE_OPTIONS = {
   forceUpOrientation: true
 };
 
+var name = "";
+var email = "";
+var phone_number = "";
+
 export default class App extends React.Component {
   state = {
     loading: false,
@@ -95,9 +99,21 @@ export default class App extends React.Component {
    * @author Zain Sajjad
    */
   processImage = async (uri, imageProperties) => {
+    
     const visionResp = await RNTextDetector.detectFromUri(uri);
     visionResp.forEach(item => {
-      console.log(item.text);
+      if(String(item.text).includes("@"))
+      {
+        email = String(item.text);
+        console.log("Email: ", email);
+      } 
+      if(/\d\d\d/.test(item.text))
+      {
+        phone_number = String(item.text).replace(/\D/g, '');
+        console.log("Phone Number: ", phone_number);
+      } 
+      
+      
     });
     if (!(visionResp && visionResp.length > 0)) {
       throw "UNMATCHED";
