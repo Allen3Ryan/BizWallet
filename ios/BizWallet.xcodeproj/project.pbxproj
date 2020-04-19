@@ -18,6 +18,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* BizWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BizWalletTests.m */; };
 		2EF382661440F662167961BC /* libPods-BizWallet-BizWalletTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C1FD680094040E09A280BB /* libPods-BizWallet-BizWalletTests.a */; };
 		67D81E9C440EA1315E15E080 /* libPods-BizWallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 396D91C2FB60B0C5FA736420 /* libPods-BizWallet.a */; };
+		6DCDB4B32448E81600A0B9E0 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 6DCDB4B22448E81600A0B9E0 /* tessdata */; };
 		8FC58CE959973A9F9AB9F26A /* libPods-BizWallet-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D9B8BC82774ECD48E850ED /* libPods-BizWallet-tvOSTests.a */; };
 		E59E5C08474B86A089891A0E /* libPods-BizWallet-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 598BCCF924EC87E559A950EE /* libPods-BizWallet-tvOS.a */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		2D02E4901E0B4A5D006451C7 /* BizWallet-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BizWallet-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		396D91C2FB60B0C5FA736420 /* libPods-BizWallet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BizWallet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		598BCCF924EC87E559A950EE /* libPods-BizWallet-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BizWallet-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DCDB4B22448E81600A0B9E0 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
 		74D9B8BC82774ECD48E850ED /* libPods-BizWallet-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BizWallet-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E8D9999FC664E3B8EC2667A /* Pods-BizWallet-BizWalletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BizWallet-BizWalletTests.release.xcconfig"; path = "Target Support Files/Pods-BizWallet-BizWalletTests/Pods-BizWallet-BizWalletTests.release.xcconfig"; sourceTree = "<group>"; };
 		A6B62E927BAB47237D86DDC8 /* Pods-BizWallet-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BizWallet-tvOS.release.xcconfig"; path = "Target Support Files/Pods-BizWallet-tvOS/Pods-BizWallet-tvOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		13B07FAE1A68108700A75B9A /* BizWallet */ = {
 			isa = PBXGroup;
 			children = (
+				6DCDB4B22448E81600A0B9E0 /* tessdata */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -340,6 +343,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				6DCDB4B32448E81600A0B9E0 /* tessdata in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

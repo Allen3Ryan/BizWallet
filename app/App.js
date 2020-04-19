@@ -9,6 +9,7 @@ import { TouchableOpacity, View, ImageBackground } from "react-native";
 import { RNCamera as Camera } from "react-native-camera";
 import RNTextDetector from "react-native-text-detector";
 
+
 import style, { screenHeight, screenWidth } from "./styles";
 
 const PICTURE_OPTIONS = {
@@ -95,7 +96,9 @@ export default class App extends React.Component {
    */
   processImage = async (uri, imageProperties) => {
     const visionResp = await RNTextDetector.detectFromUri(uri);
-    console.log(visionResp);
+    visionResp.forEach(item => {
+      console.log(item.text);
+    });
     if (!(visionResp && visionResp.length > 0)) {
       throw "UNMATCHED";
     }
