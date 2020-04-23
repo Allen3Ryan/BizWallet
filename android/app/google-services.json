@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "633349353471",
+    "firebase_url": "https://bizwallet-6e0b5.firebaseio.com",
+    "project_id": "bizwallet-6e0b5",
+    "storage_bucket": "bizwallet-6e0b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633349353471:android:76043cefc3c696b34bc1ca",
+        "android_client_info": {
+          "package_name": "com.bizwallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633349353471-3cunqbfrb8s0c4n24v1e49ubumaukh2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6nqF_4Fn56jKHosQ26pM4GQq7XqOkqiA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633349353471-3cunqbfrb8s0c4n24v1e49ubumaukh2a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
