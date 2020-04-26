@@ -4,7 +4,6 @@ import 'react-native-gesture-handler';
 import {NavigationContainer} from '@react-navigation/native';
 import Home from './screens/home_screen';
 import {createStackNavigator} from '@react-navigation/stack';
-import ContactBrowse from './screens/contactbrowse_screen';
 import ContactConfirm from './screens/contactconfirm_screen';
 
 const Stack = createStackNavigator();
@@ -13,7 +12,7 @@ export default class App extends React.Component {
   render() {
     return (
       <NavigationContainer>
-        <Stack.Navigator>
+        <Stack.Navigator screenOptions = {{headerShown: false}}>
           <Stack.Screen
             name="Home"
             component={Home}
@@ -25,8 +24,9 @@ export default class App extends React.Component {
             options={{headerShown: false}}
             
           />
-          <Stack.Screen name="ContactBrowse" component={ContactBrowse} />
+          
           <Stack.Screen name="ContactConfirm" component={ContactConfirm} />
+          
         </Stack.Navigator>
       </NavigationContainer>
     );

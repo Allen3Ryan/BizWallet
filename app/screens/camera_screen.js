@@ -7,8 +7,11 @@ import {
 } from 'react-native';
 import {RNCamera as Camera} from 'react-native-camera';
 import RNTextDetector from 'react-native-text-detector';
+import Dimensions from "./Dimensions"
+export const screenHeight = Dimensions.screenHeight;
+export const screenWidth = Dimensions.screenWidth;
 
-import style, {screenHeight, screenWidth} from '../styles';
+
 
 const PICTURE_OPTIONS = {
   quality: 1,
@@ -28,36 +31,7 @@ export default class CameraScreen extends React.Component {
     visionResp: [],
   };
 
-  /**
-   * reset
-   *
-   * Handles error situation at any stage of the process
-   *
-   * @param {string} [error="OTHER"]
-   * @memberof App
-   */
-  reset(error = 'OTHER') {
-    this.setState(
-      {
-        loading: false,
-        image: null,
-        error,
-      },
-      () => {
-        // setTimeout(() => this.camera.startPreview(), 500);
-      },
-    );
-  }
-
-  /**
-   * takePicture
-   *
-   * Responsible for getting image from react native camera and
-   * starting image processing.
-   *
-   * @param {*} camera
-   * @author Zain Sajjad
-   */
+  
   takePicture = async (camera) => {
     this.setState({
       loading: true,
@@ -85,17 +59,7 @@ export default class CameraScreen extends React.Component {
     }
   };
 
-  /**
-   * processImage
-   *
-   * Responsible for getting image from react native camera and
-   * starting image processing.
-   *
-   * @param {string} uri              Path for the image to be processed
-   * @param {object} imageProperties  Other properties of image to be processed
-   * @memberof App
-   * @author Zain Sajjad
-   */
+  
   processImage = async (uri, imageProperties) => {
     name = '';
     email = '';
@@ -123,9 +87,7 @@ export default class CameraScreen extends React.Component {
     if (!(visionResp && visionResp.length > 0)) {
       throw 'UNMATCHED';
     }
-    this.setState({
-      visionResp: this.mapVisionRespToScreen(visionResp, imageProperties),
-    });
+    
 
     this.props.navigation.navigate('ContactConfirm', {
       name: name,
@@ -134,40 +96,10 @@ export default class CameraScreen extends React.Component {
     });
   };
 
-  /**
-   * mapVisionRespToScreen
-   *
-   * Converts RNTextDetectors response in representable form for
-   * device's screen in accordance with the dimensions of image
-   * used to processing.
-   *
-   * @param {array}  visionResp       Response from RNTextDetector
-   * @param {object} imageProperties  Other properties of image to be processed
-   * @memberof App
-   */
-  mapVisionRespToScreen = (visionResp, imageProperties) => {
-    const IMAGE_TO_SCREEN_Y = screenHeight / imageProperties.height;
-    const IMAGE_TO_SCREEN_X = screenWidth / imageProperties.width;
+  
 
-    return visionResp.map((item) => {
-      return {
-        ...item,
-        position: {
-          width: item.bounding.width * IMAGE_TO_SCREEN_X,
-          left: item.bounding.left * IMAGE_TO_SCREEN_X,
-          height: item.bounding.height * IMAGE_TO_SCREEN_Y,
-          top: item.bounding.top * IMAGE_TO_SCREEN_Y,
-        },
-      };
-    });
-  };
 
-  /**
-   * React Native render function
-   *
-   * @returns ReactNode or null
-   * @memberof App
-   */
+  
   render() {
     return (
       <View style={style.screen}>
@@ -195,29 +127,55 @@ export default class CameraScreen extends React.Component {
             }}
           </Camera>
         ) : null}
-        {this.state.image ? (
-          <ImageBackground
-            source={{uri: this.state.image}}
-            style={style.imageBackground}
-            key="image"
-            resizeMode="cover">
-            {this.state.visionResp.map((item) => {
-              return (
-                <TouchableOpacity
-                  style={[style.boundingRect, item.position]}
-                  key={item.text}
-                />
-              );
-            })}
-          </ImageBackground>
-        ) : null}
+        
       </View>
     );
   }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    padding: 24,
+const style = StyleSheet.create({
+  screen: {
+    backgroundColor: 'black',
+    flex: 1
   },
+  camera: {
+    position: "absolute",
+    width: Dimensions.screenWidth,
+    height: Dimensions.screenHeight,
+    alignItems: "center",
+    justifyContent: "center",
+    top: 0,
+    left: 0,
+    flex: 1
+  },
+  imageBackground: {
+    position: "absolute",
+    width: Dimensions.screenWidth,
+    height: Dimensions.screenHeight,
+    alignItems: "flex-start",
+    justifyContent: "flex-start",
+    top: 0,
+    left: 0
+  },
+  buttonContainer: {
+    width: 70,
+    height: 70,
+    backgroundColor: 'white',
+    borderRadius: 35,
+    position: "absolute",
+    bottom: 36,
+    alignSelf: "center",
+    alignItems: "center",
+    justifyContent: "center"
+  },
+  button: {
+    width: 64,
+    height: 64,
+    backgroundColor: 'white',
+    borderRadius: 32,
+    borderWidth: 4,
+    borderColor: 'black'
+  },
+  
 });
+
