@@ -6,6 +6,8 @@
 	<string>Test</string>
 	<key>NSCameraUsageDescription</key>
 	<string>Hello</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Test</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
